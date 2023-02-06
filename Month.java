@@ -1,3 +1,5 @@
+package HomeworkTwo;
+
 public enum Month {
 
     JANUARY(1, "January"),
@@ -30,7 +32,7 @@ public enum Month {
         return null;
     }
 
-    static int getNameMonth(String nameMonth) {
+    public static int getNameMonth(String nameMonth) {
         for (Month month : Month.values()) {
             if (month.nameMonth.equals(nameMonth)) {
                 return month.numberMonth;
