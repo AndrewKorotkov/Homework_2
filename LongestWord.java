@@ -13,8 +13,8 @@ public class LongestWord {
 
     static public void main(String args[]) {
         String somestring = "one two three four five";
-        String maxword = max(somestring);
-        System.out.println(maxword);
-        System.out.println(maxword.length());
+        String longeststring = max(somestring);
+        System.out.println(longeststring);
+        System.out.println(longeststring.length());
     }
 }
